@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en <GifsApp/> Debe de hacer match con el snapshoot 1`] = `
+<div>
+  <div
+    class="container"
+  >
+    <h1
+      class="my-3 text-center"
+    >
+      GifsApp
+    </h1>
+    <form
+      class="d-flex"
+      data-testid="form"
+    >
+      <input
+        class="form-control"
+        name="search"
+        placeholder="Buscar Gif..."
+        type="text"
+        value=""
+      />
+    </form>
+  </div>
+</div>
+`;

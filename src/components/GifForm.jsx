@@ -18,7 +18,7 @@ export const GifForm = ({ onNewValue }) => {
   };
 
   return (
-    <form className="d-flex" onSubmit={onSubmit}>
+    <form className="d-flex" onSubmit={onSubmit} data-testid="form">
       <input
         className="form-control"
         type="text"
